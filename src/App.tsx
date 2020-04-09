@@ -26,7 +26,9 @@ function App() {
         >
           Learn React
         </a>
+        <div className="identity">
         <Identity name="Smith Jones" age="26" role="Data Scientist" department="TechData" displayMethod={myIdentityFunction} />
+        </div>      
       </header>
     </div>
   );
